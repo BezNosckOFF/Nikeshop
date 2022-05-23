@@ -504,6 +504,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row: span 2 / span 2;
 }
 
+.row-span-6 {
+  grid-row: span 6 / span 6;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -647,12 +651,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-end {
   align-items: flex-end;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -751,6 +763,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 5rem;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -773,6 +790,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-11 {
   padding-top: 2.75rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-2xl {
@@ -800,6 +825,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -824,6 +859,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-20 {
   opacity: 0.2;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .blur-3xl {
